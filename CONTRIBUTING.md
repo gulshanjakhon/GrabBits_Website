@@ -27,7 +27,7 @@ Refer to the following articles on the basics of Git and GitHub and feel free to
 
 ## ⭐ How to make a pull request  
 
-**1.** Fork [this](https://github.com/GrabBits/GrabBits_Website/fork) repository. Click on "Fork" from top right corner.
+**1.** Fork [this](https://github.com/GrabBits/GrabBits_Website/fork) repository. Click on "Fork" from the top right corner.
 
 **2.** Clone the forked repository.
 
@@ -60,7 +60,7 @@ git push
 
 **8.** Create a [Pull Request (PR)](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request) !
 
-**9.** **Congratulations!** Sit and relax, you've made your contribution to GrabBits project.
+**9.** **Congratulations!** Sit and relax, you've made your contribution to the GrabBits project.
 
 ***:trophy: After this, project leaders and mentors will review your changes and merge your PR if they are deemed satisfactory. If changes are required, they will provide suggestions.***
 
