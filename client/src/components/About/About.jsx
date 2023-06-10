@@ -10,7 +10,7 @@ export const About = () => {
 				<div className={classes.head}>Who We Are ?</div>
 				<div className={classes.subHead}>
 					<p>
-						Grab bit is a community made by the students for the students. That
+						GrabBit is a community made by the students for the students. That
 						ensures every opportunity meant for students should reach to them at
 						earliest.{' '}
 					</p>
