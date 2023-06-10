@@ -15,61 +15,70 @@
     <img src="https://img.shields.io/github/repo-size/GrabBits/GrabBits_Website?style=for-the-badge" />
     </div>
     
-## 🔖Steps to Contribute 
+## 🔖Steps to Contribute
 
 See [CONTRIBUTING.md](https://github.com/GrabBits/GrabBits_Website/blob/main/CONTRIBUTING.md) for more info on how to start contributing.
 
 ## Problem Statement 😖
 
-Many students miss out on the latest job and internship opportunities due to a lack of awareness about them. Often, they become aware of these opportunities when it's already too late to apply. 
-It can be challenging to find verified job and internship opportunities quickly and easily, especially those that are relevant to one's interests and qualifications. 
+Many students miss out on the latest job and internship opportunities due to a lack of awareness about them. Often, they become aware of these opportunities when it's already too late to apply.
+It can be challenging to find verified job and internship opportunities quickly and easily, especially those that are relevant to one's interests and qualifications.
 This can lead to missed opportunities and a delay in career growth.
-
 
 ## Proposed Solution 🤩
 
-#### Grabbit, a community-driven platform that provides the latest updates about verified job, internship, and hackathon opportunities. 
-#### With Grabbit, students can quickly and easily find opportunities that match their skills and interests. 
+#### Grabbit, is a community-driven platform that provides the latest updates about verified job, internship, and hackathon opportunities.
+
+#### With Grabbit, students can quickly and easily find opportunities that match their skills and interests.
+
 #### Additionally, Grabbit offers a platform for experienced professionals to share their knowledge and insights through podcasts and motivational content, inspiring and guiding students as they pursue their careers.
 
 ## Glimps ✨
 
-### Check out the live demo of the platform  [GrabBit](https://grabbits.vercel.app)
+### Check out the live demo of the platform [GrabBit](https://grabbits.vercel.app)
 
 ## Functionality & Concepts Used ⚒
 
-### UI/UX - 
+### UI/UX -
+
 - Figma
-### Frontend: 
-- spider
-### Backend: 
-- spider
-### Programming languages and tools: 
+
+### Frontend:
+
 - spider
 
+### Backend:
+
+- spider
+
+### Programming languages and tools:
+
+- spider
 
 ### Tech Stack Used At Frontend
+
 ![javascript](https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![reactjs](https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=black)
 ![CSS5](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 
 ### Tech Stack Used At Backend
+
 ![node.js](https://img.shields.io/badge/node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
 ![mongodb](https://img.shields.io/badge/mongodb-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
 ![expressjs](https://img.shields.io/badge/express-000000?style=for-the-badge&logo=express&logoColor=white)
 
 ## Our platform features several key concepts and functionalities, including:
 
-- find verified job, internship, and hackathon opportunities quickly and easily. 
+- find verified jobs, internships, and hackathon opportunities quickly and easily.
 - Our website offers three main sections, namely Jobs, Internships, and Hackathons, where users can browse through different opportunities that match their interests and qualifications.
 - Job portal or career page of the company offering the opportunity, where they can easily apply for the position. This streamlines the application process and saves users time and effort in searching for and applying to multiple job openings.
-- The podcasts featuring successful students who have landed positions in top companies with excellent compensation packages. During these podcasts, the students share their preparation strategies for interviews and valuable tips on how to secure similar opportunities to advance their careers.
-
+- The podcasts feature successful students who have landed positions in top companies with excellent compensation packages. During these podcasts, the students share their preparation strategies for interviews and valuable tips on how to secure similar opportunities to advance their careers.
 
 ## Our Goals 🎯
 
 Our project aligns with several United Nations Sustainable Development Goals, including:
+
 <table>
   <tr>
     <td><img src="https://user-images.githubusercontent.com/47987136/228332340-ab9bd94b-90ba-4ada-81ff-46178ae2ee34.png" alt="image1" width="100"></td>
@@ -85,24 +94,28 @@ spider
 ## Future Scope 🔮
 
 #### In the future, we plan to expand Grabbit's reach by partnering with more companies, universities, and other organizations to provide even more resources and opportunities to our users.
-#### To expand the platform's reach and include more features like a chatbot, personalized job recommendations, and an online learning platform, resume building etc.
+
+#### To expand the platform's reach and include more features like a chatbot, personalized job recommendations, an online learning platform, resume building etc.
+
 #### To reach a larger audience, we plan to promote the platform on various social media platforms and partner with educational institutions and companies.
+
 #### We also plan to continue improving our platform's functionality and user experience based on feedback from our users.
 
 ## Creators 👨🏻‍💻
+
 spider
 
 # Our Contributors ✨
 
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- ALL-CONTRIBUTORS-LIST: START - Do not remove or modify this section -->
 <table>
-	<tr>
-		<td>
+  <tr>
+    <td>
       <a href="https://github.com/GrabBits/GrabBits_Website/graphs/contributors">
        <img src="https://contrib.rocks/image?max=50&repo=GrabBits/GrabBits_Website" />
       </a>
-		</td>
-	</tr>
+    </td>
+  </tr>
 </table>
 
  <h1 align="center"> DON'T FORGET TO ⭐ THIS REPOSITORY !! </h1>
