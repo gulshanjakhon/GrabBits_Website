@@ -15,7 +15,7 @@ export const About = () => {
 						earliest.{' '}
 					</p>
 					<p>
-						We share latest intern opportunities, hackathons, coding contests
+						We share the latest intern opportunities, hackathons, and coding contests
 						along with that some useful resources to prepare for the same.. This
 						info is spread via their Instagram, Whatsapp, LinkedIn and Twitter
 						handles. You can follow us from anywhere..
