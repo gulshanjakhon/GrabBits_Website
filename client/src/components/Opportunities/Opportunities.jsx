@@ -6,6 +6,7 @@ import Swal from 'sweetalert2';
 
 import ReactGA from 'react-ga4';
 import ThemeButton from '../common/ThemeButton/ThemeButton';
+import debounce from '../../helper/debounce';
 
 const Opportunities = () => {
 	const [jobData, setJobData] = useState(null);
@@ -34,24 +35,28 @@ const Opportunities = () => {
 		}
 	};
 
-	const search = async (e) => {
-		let key = e.target.value;
-		try {
-			if (key) {
-				let result = await http.get(`job/getJobs/${key}`);
-				if (result) {
-					setJobData(result.data.job);
+	const debouncedSearch = debounce(async (key) => {
+			try {
+				if (key) {
+					let result = await http.get(`job/getJobs/${key}`);
+					if (result) {
+						setJobData(result.data.job);
+					}
+				} else {
+					getData();
 				}
-			} else {
-				getData();
+			} catch (error) {
+				Swal.fire({
+					icon: 'error',
+					title: 'Unable to search the jobs',
+					text: error,
+				});
 			}
-		} catch (error) {
-			Swal.fire({
-				icon: 'error',
-				title: 'Unable to search the jobs',
-				text: error,
-			});
-		}
+		}, 2500);
+
+	const search = async (e) => {
+		const key = e.target.value;
+		debouncedSearch(key);
 	};
 	const filterData = async (filterBy) => {
 		setJobData(test);
@@ -78,6 +83,7 @@ const Opportunities = () => {
 						/>
 						{/* <ThemeButton onClick={()=>filterData('Others')} label="Others" /> */}
 					</div>
+                    <div className={classes.base}>
 					<div className={classes.searchbar_bg}>
 						<input
 							type="search"
@@ -87,6 +93,7 @@ const Opportunities = () => {
 						/>
 						<i className="fa fa-search"></i>
 					</div>
+                  </div>
 				</div>
 				<h1 className={classes.text}>Opportunities</h1>
 				{loading && (
